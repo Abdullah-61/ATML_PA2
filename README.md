@@ -1,16 +1,5 @@
 # ATML PA2 — LLM Post-Training: DPO, PPO, GRPO, Safety, RLVR vs. RLAIF
 
-Code, configurations, fixed split IDs, logs and machine-readable results for Programming Assignment 2
-(EE-5102/CS-6304, Fall 2026). The report is in [`report/ATML_PA2_report.pdf`](report/ATML_PA2_report.pdf)
-(LaTeX source in [`report/`](report); to compile on Overleaf, upload the `report/` folder and use pdfLaTeX).
-
-Every number in the report can be traced to a file in [`results/`](results) and regenerated with the
-commands below. All experiments were run on a single **Tesla T4 (16 GB, Google Colab)** with
-**seed 6304** and the **unchanged release configs**; only evaluation-size settings that the release did not
-define were appended (marked `# --- added by student` in `configs/*.yaml`).
-
----
-
 ## 1. Setup
 
 ```bash
