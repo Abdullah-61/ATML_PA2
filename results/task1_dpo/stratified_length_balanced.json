@@ -1,0 +1,42 @@
+{
+ "name": "length_balanced",
+ "stratum_key": "length_stratum",
+ "overall": {
+  "n": 237,
+  "dpo_loss": 0.6760593745778885,
+  "pref_acc": 0.5949367088607594,
+  "margin_mean": 0.4532161347473724
+ },
+ "strata": {
+  "length_matched": {
+   "n": 80,
+   "dpo_loss": 0.6784282263368369,
+   "pref_acc": 0.5875,
+   "margin_mean": 0.35113442987203597
+  },
+  "preferred_longer": {
+   "n": 78,
+   "dpo_loss": 0.7225991999491667,
+   "pref_acc": 0.4230769230769231,
+   "margin_mean": -0.48880259195963544
+  },
+  "rejected_longer": {
+   "n": 79,
+   "dpo_loss": 0.6277098236959192,
+   "pref_acc": 0.7721518987341772,
+   "margin_mean": 1.4866844521293157
+  }
+ },
+ "n_skipped_overlong_prompt": 9,
+ "skipped_source_indices": [
+  6,
+  7,
+  20,
+  22,
+  57,
+  76,
+  82,
+  144,
+  209
+ ]
+}

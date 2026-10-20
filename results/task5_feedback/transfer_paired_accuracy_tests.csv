@@ -1,0 +1,4 @@
+A,B,acc_A,acc_B,only_A_correct,only_B_correct,mcnemar_p
+rlvr,sft,0.46,0.42,5,1,0.21875
+rlaif,sft,0.48,0.42,6,0,0.03125
+rlvr,rlaif,0.46,0.48,0,2,0.5

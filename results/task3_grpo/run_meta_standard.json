@@ -1,0 +1,15 @@
+{
+  "run_name": "standard",
+  "loss_type": "grpo",
+  "updates": 20,
+  "num_generations": 4,
+  "prompts_per_update": 1,
+  "policy_epochs": 1,
+  "clip_epsilon": 0.2,
+  "kl_beta": 0.1,
+  "max_completion_length": 512,
+  "total_generated_tokens": 24169,
+  "wall_clock_s": 445.0492250919342,
+  "peak_vram_gb": 5.495914936065674,
+  "gpu": "Tesla T4"
+}

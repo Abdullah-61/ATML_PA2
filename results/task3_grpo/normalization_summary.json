@@ -1,0 +1,31 @@
+{
+ "pooled_median_length": 195.0,
+ "canonical_grpo": {
+  "n_completions": 25,
+  "n_informative": 25,
+  "mean_length": 242.28,
+  "corr_length_gradnorm": -0.5190382405464937,
+  "corr_length_gradnorm_per_adv": -0.7032931747391784,
+  "gradnorm_short": 0.3047917197058546,
+  "gradnorm_long": 0.06499437326873331,
+  "gradnorm_long_over_short": 0.21324192576969425,
+  "gn_per_adv_long_over_short": 0.2407301383834769,
+  "per_token_weight_short": 0.0033987251047689756,
+  "per_token_weight_long": 0.0005634493105996322,
+  "weight_mass_share_long": 0.45912768440566104
+ },
+ "dr_grpo": {
+  "n_completions": 24,
+  "n_informative": 24,
+  "mean_length": 222.91666666666666,
+  "corr_length_gradnorm": 0.23450390670013527,
+  "corr_length_gradnorm_per_adv": 0.7124291988010357,
+  "gradnorm_short": 0.03755249477716779,
+  "gradnorm_long": 0.04671955351164294,
+  "gradnorm_long_over_short": 1.2441131751397991,
+  "gn_per_adv_long_over_short": 1.4380774629314688,
+  "per_token_weight_short": 0.00045469489001940627,
+  "per_token_weight_long": 0.0003944254337208501,
+  "weight_mass_share_long": 0.7487301332688711
+ }
+}

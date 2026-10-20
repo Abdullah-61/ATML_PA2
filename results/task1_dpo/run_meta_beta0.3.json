@@ -1,0 +1,11 @@
+{
+ "run_name": "beta0.3",
+ "beta": 0.3,
+ "n_examples": 600,
+ "seed": 6304,
+ "dataset": "data/dpo_standard_train.jsonl",
+ "lr": 2e-05,
+ "batch_size": 2,
+ "grad_accum_steps": 8,
+ "optimizer_steps": 38
+}

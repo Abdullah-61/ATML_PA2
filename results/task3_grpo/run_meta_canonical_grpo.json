@@ -1,0 +1,15 @@
+{
+  "run_name": "canonical_grpo",
+  "loss_type": "grpo",
+  "updates": 8,
+  "num_generations": 4,
+  "prompts_per_update": 1,
+  "policy_epochs": 1,
+  "clip_epsilon": 0.2,
+  "kl_beta": 0.1,
+  "max_completion_length": 512,
+  "total_generated_tokens": 9641,
+  "wall_clock_s": 194.44173097610474,
+  "peak_vram_gb": 5.495914936065674,
+  "gpu": "Tesla T4"
+}

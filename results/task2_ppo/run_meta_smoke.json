@@ -1,0 +1,12 @@
+{
+  "run_name": "smoke",
+  "updates": 1,
+  "clip_epsilon": 0.2,
+  "kl_beta": 0.1,
+  "ppo_epochs": 2,
+  "prompts_per_update": 1,
+  "max_response_length": 512,
+  "wall_clock_s": 31.208949327468872,
+  "peak_vram_gb": 9.503555297851562,
+  "gpu": "Tesla T4"
+}

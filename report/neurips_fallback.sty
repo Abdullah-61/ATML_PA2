@@ -1,0 +1,27 @@
+% Minimal stand-in that mimics the NeurIPS page geometry and title block.
+% Replace with the official neurips_20XX.sty from the course template before submission.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{neurips_fallback}
+\RequirePackage[letterpaper,textwidth=5.5in,textheight=9in,top=1in,headheight=12pt,headsep=25pt,footskip=30pt]{geometry}
+\RequirePackage{mathptmx}
+\RequirePackage[T1]{fontenc}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\renewcommand{\normalsize}{\fontsize{10}{11}\selectfont}
+\normalsize
+\renewcommand{\small}{\fontsize{9}{10}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{8}{9.5}\selectfont}
+\renewcommand{\scriptsize}{\fontsize{7}{8}\selectfont}
+\renewcommand{\section}{\@startsection{section}{1}{\z@}{-1.4ex \@plus -0.5ex \@minus -.2ex}{0.9ex \@plus 0.2ex}{\large\bfseries\raggedright}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}{-1.1ex \@plus -0.4ex \@minus -.2ex}{0.6ex \@plus 0.2ex}{\normalsize\bfseries\raggedright}}
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}{0.6ex \@plus 0.3ex \@minus .2ex}{-1em}{\normalsize\bfseries}}
+\renewcommand{\maketitle}{\par\begingroup
+  \thispagestyle{plain}
+  \vbox{\hsize\textwidth\linewidth\hsize
+    \hrule height 4pt\vskip 0.25in
+    \centering{\LARGE\bfseries \@title\par}
+    \vskip 0.22in\hrule height 1pt\vskip 0.2in
+    {\centering\@author\par}\vskip 0.25in}
+  \endgroup}
+\renewenvironment{abstract}{\centerline{\large\bfseries Abstract}\vspace{0.4ex}\begin{quote}}{\par\end{quote}\vskip 1ex}
+\endinput

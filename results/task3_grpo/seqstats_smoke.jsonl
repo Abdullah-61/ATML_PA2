@@ -1,0 +1,4 @@
+{"update": 1, "epoch": 0, "idx": 0, "group": 0, "length": 451, "n_train_tokens": 451, "masked": false, "reward": 1.7431640625, "adv": -0.17700469493865967, "grad_norm": 0.011952020447052672, "tok_weight": 9.811790368985385e-05, "mass": 0.04425117373466492}
+{"update": 1, "epoch": 0, "idx": 1, "group": 0, "length": 512, "n_train_tokens": 0, "masked": true, "reward": 1.1357421875, "adv": -1.460933804512024, "grad_norm": 0.0, "tok_weight": 0.365233451128006, "mass": 0.0}
+{"update": 1, "epoch": 0, "idx": 2, "group": 0, "length": 393, "n_train_tokens": 393, "masked": false, "reward": 2.44921875, "adv": 1.3154081106185913, "grad_norm": 0.11307728621291543, "tok_weight": 0.0008367736008949578, "mass": 0.3288520276546478}
+{"update": 1, "epoch": 0, "idx": 3, "group": 0, "length": 512, "n_train_tokens": 0, "masked": true, "reward": 1.9794921875, "adv": 0.3225304186344147, "grad_norm": 0.0, "tok_weight": 0.08063260465860367, "mass": 0.0}

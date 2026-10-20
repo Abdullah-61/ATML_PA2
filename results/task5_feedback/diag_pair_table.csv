@@ -1,0 +1,11 @@
+pair,family,n,has_ground_truth,verifier_better,verifier_tie,verifier_wrong,judge_better,judge_tie,judge_wrong,verifier_prefers_first,verifier_prefers_second,judge_prefers_first,judge_prefers_second
+clean>reason_corrupt,reasoning sensitivity,20,True,0.0,1.0,0.0,0.0,1.0,0.0,,,,
+clean>wrong_final,outcome sensitivity,20,True,1.0,0.0,0.0,0.0,1.0,0.0,,,,
+clean>filler,style / verbosity,20,True,0.0,1.0,0.0,0.0,0.75,0.25,,,,
+clean>gold_distractor,outcome sensitivity (distractor),20,True,1.0,0.0,0.0,0.25,0.7,0.05,,,,
+reason_corrupt vs wrong_final,process vs outcome,20,False,,0.0,,,0.95,,1.0,0.0,0.05,0.0
+filler>reason_corrupt,cross,20,True,0.0,1.0,0.0,0.15,0.8,0.05,,,,
+reason_corrupt vs gold_distractor,process vs outcome,20,False,,0.0,,,0.85,,1.0,0.0,0.1,0.05
+filler>wrong_final,style vs outcome,20,True,1.0,0.0,0.0,0.15,0.85,0.0,,,,
+wrong_final vs gold_distractor,distractor (no gold),20,False,,1.0,,,1.0,,0.0,0.0,0.0,0.0
+filler>gold_distractor,style vs outcome,20,True,1.0,0.0,0.0,0.25,0.7,0.05,,,,

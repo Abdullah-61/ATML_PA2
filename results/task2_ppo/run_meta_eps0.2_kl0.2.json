@@ -1,0 +1,12 @@
+{
+  "run_name": "eps0.2_kl0.2",
+  "updates": 8,
+  "clip_epsilon": 0.2,
+  "kl_beta": 0.2,
+  "ppo_epochs": 2,
+  "prompts_per_update": 1,
+  "max_response_length": 512,
+  "wall_clock_s": 168.24384951591492,
+  "peak_vram_gb": 9.538192749023438,
+  "gpu": "Tesla T4"
+}

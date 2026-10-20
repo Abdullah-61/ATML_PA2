@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Caches
+.cache/
+hf_cache/
+.huggingface/
+wandb/
+
+# Student outputs
+outputs/
+
+# Downloaded course assets
+cached/
+checkpoints/
+manifests/
+data/*
+!data/word_limit_prompts.jsonl
+
+# Misc
+*.zip
+.DS_Store
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+
+# Model weights (never commit)
+*.safetensors
+*.pt
+*.pth
+*.bin

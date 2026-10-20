@@ -1,0 +1,13 @@
+metric,A,B,rate_A,rate_B,only_A,only_B,p_exact
+safe_over_refusal,sft,dpo,0.0,0.0,0,0,1.0
+safe_over_refusal,sft,ppo,0.0,0.0,0,0,1.0
+safe_over_refusal,sft,grpo,0.0,0.0,0,0,1.0
+safe_over_refusal,dpo,ppo,0.0,0.0,0,0,1.0
+safe_over_refusal,dpo,grpo,0.0,0.0,0,0,1.0
+safe_over_refusal,ppo,grpo,0.0,0.0,0,0,1.0
+unsafe_compliance,sft,dpo,0.0,0.0,0,0,1.0
+unsafe_compliance,sft,ppo,0.0,0.0,0,0,1.0
+unsafe_compliance,sft,grpo,0.0,0.0,0,0,1.0
+unsafe_compliance,dpo,ppo,0.0,0.0,0,0,1.0
+unsafe_compliance,dpo,grpo,0.0,0.0,0,0,1.0
+unsafe_compliance,ppo,grpo,0.0,0.0,0,0,1.0

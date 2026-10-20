@@ -1,0 +1,11 @@
+mechanism,quantity,S,tie,wrong,n
+verifier,S_reason (clean > reason_corrupt),0.0,1.0,0.0,20.0
+verifier,S_outcome (clean > wrong_final),1.0,0.0,0.0,20.0
+verifier,S_outcome_distractor (clean > gold_distractor),1.0,0.0,0.0,20.0
+verifier,filler (clean > filler),0.0,1.0,0.0,20.0
+verifier,S_outcome_pooled,1.0,0.0,0.0,40.0
+judge,S_reason (clean > reason_corrupt),0.0,1.0,0.0,20.0
+judge,S_outcome (clean > wrong_final),0.0,1.0,0.0,20.0
+judge,S_outcome_distractor (clean > gold_distractor),0.25,0.7,0.05,20.0
+judge,filler (clean > filler),0.0,0.75,0.25,20.0
+judge,S_outcome_pooled,0.125,0.85,0.025,40.0

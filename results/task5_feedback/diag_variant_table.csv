@@ -1,0 +1,6 @@
+variant,n,verifier_reward,rlaif_group_reward,rlaif_group_reward_sd,mean_words,mean_rlaif_rank,top_or_tied_rate,strict_top_rate
+clean,20,1.0,0.49375,0.08579159264415746,49.7,2.95,0.5,0.05
+reason_corrupt,20,1.0,0.5,0.08111071056538127,49.7,2.825,0.5,0.1
+wrong_final,20,0.0,0.475,0.05129891760425771,49.7,3.3,0.35,0.0
+filler,20,1.0,0.5875,0.13511690844364527,59.7,2.2,0.75,0.35
+gold_distractor,20,0.0,0.44375,0.143241377071233,17.0,3.725,0.4,0.05
