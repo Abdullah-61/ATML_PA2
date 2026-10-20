@@ -12,9 +12,6 @@ python -m scripts.validate_assets
 python -m pytest -q tests                # unit tests for the three objective fixes + Task 4/5 helpers (20 tests)
 ```
 
-Course assets come from `https://huggingface.co/datasets/AbDu11aHHH/ATML-PA2-assets`
-(revision `0b350481fb03f5525a35bcdec4131bd4fe487f98`). Datasets, caches, checkpoints and trained adapters
-are **not** committed (see `.gitignore`).
 
 ## 2. Repository layout
 
