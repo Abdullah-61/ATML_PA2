@@ -181,5 +181,4 @@ python -m scripts.make_figures     # writes report/figs/online_traj.pdf and repo
 * Libraries: PyTorch, Hugging Face Transformers, PEFT, bitsandbytes, pandas, NumPy, Matplotlib.
 * Models/data: Qwen2.5-1.5B/3B-Instruct, `yavuz-ai/qwen2.5-1.5b-rm-ultrafeedback`, UltraFeedback, XSTest,
   GSM8K, SVAMP (via the course asset release).
-* An LLM coding assistant was used for parts of the implementation, analysis scripts and report drafting;
-  all code was reviewed, run and validated by the author.
+  
